@@ -3,6 +3,7 @@ import { getSession } from '@auth0/nextjs-auth0'
 
 import LoginLogout from '../components/LoginLogout'
 import HeaderMenu from '../components/HeaderMenu'
+import ConnectSupabase from '../components/ConnectSupabase'
 
 export const metadata = {
   title: "Create Next App",
@@ -40,6 +41,8 @@ const DefaultLayout = async ({ children }) => {
           </header>
         </div>
       </div>
+
+      <ConnectSupabase />
 
       {children}
 
