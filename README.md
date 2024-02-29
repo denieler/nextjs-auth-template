@@ -9,3 +9,8 @@
 5. In [auth0.com](https://auth0.com) configure `Allowed Callback URLs` and `Allowed Logout URLs` to `http://localhost:3000` (or your domain)
 6. Generate random `AUTH_SECRET` via command `npx auth secret` and fill up env variable in `.env.local`, more info [here](https://authjs.dev/reference/core/errors#missingsecret)
 7. Go to [supabase.com](https://supabase.com/) and create a new project, fill up `*_SUPABASE_*` env variables in `.env.local`
+
+
+### Helpful links
+
+* [https://supabase.com/partners/integrations/auth0](https://supabase.com/partners/integrations/auth0)
