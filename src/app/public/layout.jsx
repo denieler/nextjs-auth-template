@@ -82,7 +82,7 @@ const DefaultLayout = async ({ children }) => {
             </div>
 
             <div className="py-8 text-center text-sm text-gray-400">
-              &copy; 2023 {process.env.NEXT_PUBLIC_APP_NAME}
+              &copy; 2024 {process.env.NEXT_PUBLIC_APP_NAME}
             </div>
           </div>
         </div>
